@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.section_colors {
+    background-color: gray;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.colors_container {
+    /* background-color: aquamarine; */ /*background para vizualizar o container das cores*/
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colors_option {
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px;
+}
+
+.colors_option:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.color1 {
+    background-color: bisque;
+}
+
+.color2 {
+    background-color: rgb(76, 161, 76);
+}
+
+.color3 {
+    background-color: rgb(56, 117, 230);
+}
+
+.color4 {
+    background-color: rgba(211, 106, 36, 0.459);
+}
+
+.color5 { 
+    background-color: bisque;
+}
+
+.color6 { 
+    background-color: rgb(76, 161, 76);
+}
+
+.color7 { 
+    background-color: rgb(56, 117, 230);
+}
+.color8 { 
+    background-color: rgba(211, 106, 36, 0.459);
+}
+
+.font1 {
+    color: bisque;
+}
+
+.font2 {
+    color: rgb(76, 161, 76);
+}
+
+.font3 {
+    color: rgb(56, 117, 230);
+}
+
+.font4 {
+    color: rgba(211, 106, 36, 0.459);
+}
+
+.section_page {
+    /* background-color: white; */
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    text-align: justify;
+    border: 5px solid black;
+}
